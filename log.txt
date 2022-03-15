@@ -1,0 +1,7 @@
+
+System.Data.Entity.Validation.DbEntityValidationResult
+
+Entidade do tipo "Usuario" no estado "Added" tem os seguintes erros de validação:
+- Property: "Senha", Erro: "O campo Senha deve ser uma cadeia de caracteres ou tipo de matriz com comprimento máximo de '30'."
+Entidade do tipo "Usuario" no estado "Added" tem os seguintes erros de validação:
+- Property: "Senha", Erro: "O campo Senha deve ser uma cadeia de caracteres ou tipo de matriz com comprimento máximo de '30'."

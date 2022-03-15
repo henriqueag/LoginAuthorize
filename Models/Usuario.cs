@@ -12,7 +12,7 @@ namespace LoginAuthorize.Models
         [MaxLength(30)]
         public string Username { get; set; }
         [Required]
-        [MaxLength(30)]
+        [MaxLength(100)]
         public string Senha { get; set; }
     }
 }
