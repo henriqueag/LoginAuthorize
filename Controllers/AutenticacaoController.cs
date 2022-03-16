@@ -42,7 +42,9 @@ namespace LoginAuthorize.Controllers
             _context.Usuarios.Add(user);
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            TempData["Mensagem"] = "Cadastro realizado com sucesso. Efetue o login.";
+
+            return RedirectToAction(nameof(Login));
         }
 
         public ActionResult Login(string returnUrl)
